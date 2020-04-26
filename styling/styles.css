@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    color: #40514e
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: rgb(193, 200, 201);
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+hr {
+    border: dotted #789ada98 5px;
+    border-bottom: none;
+    width: 45%;
+    margin: 100px auto;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 50px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top-container {
+    background-color: skyblue;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle-container {
+    
+}
+
+.bottom-container {
+    background-color: rgb(7, 30, 41);
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.profile-image {
+    height: 275px;
+    width: 250px;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+
+.python_logo {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.js_logo {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.sql_logo {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 40px 0;
+}
+
+.my_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:14px;
+	-moz-border-radius-topleft:14px;
+	border-top-left-radius:14px;
+	-webkit-border-top-right-radius:14px;
+	-moz-border-radius-topright:14px;
+	border-top-right-radius:14px;
+	-webkit-border-bottom-right-radius:14px;
+	-moz-border-radius-bottomright:14px;
+	border-bottom-right-radius:14px;
+	-webkit-border-bottom-left-radius:14px;
+	-moz-border-radius-bottomleft:14px;
+	border-bottom-left-radius:14px;
+    text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Source Code Pro', monospace;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+    height:50px;
+	line-height:50px;
+    width:151px;
+	text-decoration:none;
+	text-align:center;
+    text-shadow:0px 1px 0px #2688eb;
+    margin: 30px;
+}.my_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.my_button:active {
+	position:relative;
+	top:1px;
+}
